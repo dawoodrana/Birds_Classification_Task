@@ -1,6 +1,17 @@
 # **Birds_Classification_Task**
 
-# Task 2
+## Steps to run the respective task code
+
+1. Download the [Dataset](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), also link is provided below under ' **Task 2'** heading.
+2. Try to run the code on GPU server
+3. Mount your drive or cloud drive with the repective folder where you downloaded the data
+4. Run all the respective installation first which are already provided in the codes
+5. All the necessary **imports** are given in the codes, run them all
+6. 
+
+
+
+## Task 2
 **1. Dataset**
 
 [Caltech-UCSD Birds-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)
@@ -27,6 +38,12 @@ Download this dataset to either to your google drive or cloud
 
 **2. Exploratory Data Analysis**
 
+* Required Installation
+
+```bash
+!pip install hvplot
+```
+
 * Loading and Normalization of Data
 * Visualization and Skimming through some samples
 * Class Sampling
@@ -37,16 +54,20 @@ Download this dataset to either to your google drive or cloud
   
   * Heigth and width using boxplot
 
+**Respective google colab code is attached:**
+
+* [Code for EDA](https://colab.research.google.com/drive/17vOxQgpBOllKFrZ0n67FlNYt3HrfYymv#scrollTo=ITgHOKTm4hZM)
+
 **3. Train and Test Data split**
 
 * 'train_test_split.txt' ( Splitting the data on the basis of this text file, provided in dataset i.e., '0' for test_data and '1' for train_data)
+* {'test': 5794, 'train': 5994}
 
-Respective google colab codes for this task;
+**Respective google colab code is attached:**
 
-* [Code for EDA](https://colab.research.google.com/drive/17vOxQgpBOllKFrZ0n67FlNYt3HrfYymv#scrollTo=ITgHOKTm4hZM)
 * [Code for Train and Test data splitting](https://colab.research.google.com/drive/1gUwr7VdE4gw7YUmeTp1KrQj5HwG51sJM#scrollTo=jeDmgESr7TOH)
 
-# Task 3
+## Task 3
 
 Installation of PyTorch on Google Colab
 
@@ -78,10 +99,40 @@ Load a pretrained Resnet 18 model and reset final fully connected layer.
 
 **Train the model on 50 epochs**
 
-Required google colab code is attached:
+**Required google colab code is attached:**
 
 [Code for Training data on pre-trained model and features extraction](https://colab.research.google.com/drive/1FZo28vtsq_wPdgVg0emBtpi5IiQE8NAI#scrollTo=ryJ5vtkVXhRo)
 
+## Task 4
+
+**Loading Saved Model from numpy file**
+
+point_resnet_best.npy
+
+**1. Metices used for evaluation of Image Retrieval models**
+
+* Finding Accuracy at k= 1 and k= 5
+
+Here I have defined a use full class and a function to find top-1 and top-5 accuracies
+
+**2.  Information for listed metrics**
+
+Accuracy at k=1: 69.5029 %
+
+Accuracy at k=5: 91.4912 %
+
+**3.  Train and test features used to compute evaluation metrics**
+
+**4. Compute the Evaluation Metrices**
+
+Once I have got images in the correct format. I have written a function for making predictions with my model. A common practice is to predict the top 5 or so (usually called top- K ) most probable classes. I have calculated the class probabilities then find the K largest values.
+To get the top K largest values in a tensor I have used x.topk(k). This method returns both the highest k probabilities and the indices of those probabilities corresponding to the classes.
+
+Now I have used a trained model for predictions. Even if the testing accuracy is high, it's always good to check that there aren't obvious bugs. I have used matplotlib to plot the probabilities for the top 5 classes as a bar graph, along with the input image.
+
+**Required google colab code for this task is attached:**
+
+[Code for Evaluation Metrices](https://colab.research.google.com/drive/1KuJT-eVeO4ZVRAaOXnOwB876veUBgPkt#scrollTo=YtftovmWU15m)
 
 
 
