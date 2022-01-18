@@ -41,7 +41,12 @@ Download this dataset to either to your google drive or cloud
 
 * 'train_test_split.txt' ( Splitting the data on the basis of this text file, provided in dataset i.e., '0' for test_data and '1' for train_data)
 
-[Code for EDA](https://colab.research.google.com/drive/17vOxQgpBOllKFrZ0n67FlNYt3HrfYymv#scrollTo=ITgHOKTm4hZM)
+Respective google colab codes for this task;
+
+* [Code for EDA](https://colab.research.google.com/drive/17vOxQgpBOllKFrZ0n67FlNYt3HrfYymv#scrollTo=ITgHOKTm4hZM)
+* [Code for Train and Test data splitting](https://colab.research.google.com/drive/1gUwr7VdE4gw7YUmeTp1KrQj5HwG51sJM#scrollTo=jeDmgESr7TOH)
+
+
 
 
 
