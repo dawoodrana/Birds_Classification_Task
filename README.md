@@ -2,12 +2,16 @@
 
 ## Steps to run the respective task code
 
-1. Download the [Dataset](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), also link is provided below under ' **Task 2'** heading.
+1. Download the [Dataset](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)
 2. Try to run the code on GPU server
-3. Mount your drive or cloud drive with the repective folder where you downloaded the data
-4. Run all the respective installation first which are already provided in the codes
-5. All the necessary **imports** are given in the codes, run them all
-6. 
+3. Google colab is used to perform all the tasks
+4. Mount your drive or cloud drive with the repective folder where you downloaded the data
+5. Run all the respective installation first which are already provided in the codes
+6. All the necessary **imports** are given in the codes, run them all
+7. **Important**, in Task 2 -> 'Train and Test Data split' code, when splitting is done, data from 'image' folder is splitted into 'test' folder, now this 'image' folder have remaining train data, so rename it as 'train' i.e., 'image' -> 'train'
+8. When ever you are running the that part of code, where 'file' is required like **'train', 'test', 'images','classes.txt'** etc. Make sure give them the respective path where these files are located
+9. All the detail of performances are mentioned in Tasks
+10. Now run the code Task wise, as given below
 
 
 
@@ -16,7 +20,7 @@
 
 [Caltech-UCSD Birds-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)
 
-1- Number of categories: 200
+1- Number of classes: 200
 
 2- Number of images: 11,788
 
@@ -36,7 +40,16 @@ Download this dataset to either to your google drive or cloud
  * os
 
 
-**2. Exploratory Data Analysis**
+**2. Train and Test Data split**
+
+* 'train_test_split.txt' ( Splitting the data on the basis of this text file, provided in dataset i.e., '0' for test_data and '1' for train_data)
+* {'test': 5794, 'train': 5994}
+
+**Respective google colab code is attached:**
+
+* [Code for Train and Test data splitting](https://colab.research.google.com/drive/1gUwr7VdE4gw7YUmeTp1KrQj5HwG51sJM#scrollTo=jeDmgESr7TOH)
+
+**3. Exploratory Data Analysis**
 
 * Required Installation
 
@@ -58,14 +71,6 @@ Download this dataset to either to your google drive or cloud
 
 * [Code for EDA](https://colab.research.google.com/drive/17vOxQgpBOllKFrZ0n67FlNYt3HrfYymv#scrollTo=ITgHOKTm4hZM)
 
-**3. Train and Test Data split**
-
-* 'train_test_split.txt' ( Splitting the data on the basis of this text file, provided in dataset i.e., '0' for test_data and '1' for train_data)
-* {'test': 5794, 'train': 5994}
-
-**Respective google colab code is attached:**
-
-* [Code for Train and Test data splitting](https://colab.research.google.com/drive/1gUwr7VdE4gw7YUmeTp1KrQj5HwG51sJM#scrollTo=jeDmgESr7TOH)
 
 ## Task 3
 
