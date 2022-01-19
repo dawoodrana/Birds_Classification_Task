@@ -47,7 +47,7 @@ Download this dataset to either to your google drive or cloud
 
 **Respective google colab code is attached:**
 
-* [Code for Train and Test data splitting](https://colab.research.google.com/drive/1gUwr7VdE4gw7YUmeTp1KrQj5HwG51sJM#scrollTo=jeDmgESr7TOH)
+* [Code for Train and Test data splitting](https://colab.research.google.com/drive/1gUwr7VdE4gw7YUmeTp1KrQj5HwG51sJM?usp=sharing)
 
 **3. Exploratory Data Analysis**
 
@@ -69,7 +69,7 @@ Download this dataset to either to your google drive or cloud
 
 **Respective google colab code is attached:**
 
-* [Code for EDA](https://colab.research.google.com/drive/17vOxQgpBOllKFrZ0n67FlNYt3HrfYymv#scrollTo=ITgHOKTm4hZM)
+* [Code for EDA](https://colab.research.google.com/drive/17vOxQgpBOllKFrZ0n67FlNYt3HrfYymv?usp=sharing)
 
 
 ## Task 3
@@ -106,7 +106,7 @@ Load a pretrained Resnet 18 model and reset final fully connected layer.
 
 **Required google colab code is attached:**
 
-[Code for Training data on pre-trained model and features extraction](https://colab.research.google.com/drive/1FZo28vtsq_wPdgVg0emBtpi5IiQE8NAI#scrollTo=ryJ5vtkVXhRo)
+[Code for Training data on pre-trained model and features extraction](https://colab.research.google.com/drive/1FZo28vtsq_wPdgVg0emBtpi5IiQE8NAI?usp=sharing)
 
 ## Task 4
 
@@ -137,7 +137,7 @@ Now I have used a trained model for predictions. Even if the testing accuracy is
 
 **Required google colab code for this task is attached:**
 
-[Code for Evaluation Metrices](https://colab.research.google.com/drive/1KuJT-eVeO4ZVRAaOXnOwB876veUBgPkt#scrollTo=YtftovmWU15m)
+[Code for Evaluation Metrices](https://colab.research.google.com/drive/1KuJT-eVeO4ZVRAaOXnOwB876veUBgPkt?usp=sharing)
 
 
 
