@@ -104,7 +104,7 @@ Load a pretrained Resnet 18 model and reset final fully connected layer.
 
 **Train the model on 50 epochs**
 
-**Required google colab code is attached:**
+**Respective google colab code is attached:**
 
 [Code for Training data on pre-trained model and features extraction](https://colab.research.google.com/drive/1FZo28vtsq_wPdgVg0emBtpi5IiQE8NAI?usp=sharing)
 
@@ -135,7 +135,7 @@ To get the top K largest values in a tensor I have used x.topk(k). This method r
 
 Now I have used a trained model for predictions. Even if the testing accuracy is high, it's always good to check that there aren't obvious bugs. I have used matplotlib to plot the probabilities for the top 5 classes as a bar graph, along with the input image.
 
-**Required google colab code for this task is attached:**
+**Respective google colab code for this task is attached:**
 
 [Code for Evaluation Metrices](https://colab.research.google.com/drive/1KuJT-eVeO4ZVRAaOXnOwB876veUBgPkt?usp=sharing)
 
